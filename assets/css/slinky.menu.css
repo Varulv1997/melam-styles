@@ -58,9 +58,9 @@
     color: #333;
     padding: 1em; }
     .slinky-theme-default a:not(.back):hover {
-      background: rgba(90, 200, 250, 0.25); }
+      background: #2a2731; }
     .slinky-theme-default a:not(.back):active {
-      background: rgba(90, 200, 250, 0.5); }
+      background: #2a2731; }
   .slinky-theme-default .next::after,
   .slinky-theme-default .back::before {
     background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+ICAgIDxwYXRoIGQ9Ik0xMi4yMTkgMi4yODFMMTAuNzggMy43MiAxOC4wNjIgMTFIMnYyaDE2LjA2M2wtNy4yODIgNy4yODEgMS40MzggMS40MzggOS05IC42ODctLjcxOS0uNjg3LS43MTl6IiAvPjwvc3ZnPg==) center no-repeat;

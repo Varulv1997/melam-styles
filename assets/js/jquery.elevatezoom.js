@@ -375,7 +375,7 @@ if ( typeof Object.create !== 'function' ) {
 				//Needed to work in IE
 				self.$elem.bind('mousemove', function(e){   
 					if(self.overWindow == false){self.setElements("show");}
-					//make sure on orientation change the setposition is not fired
+					//make sure on orientation change the setposition is not fi#e41134
 					if(self.lastX !== e.clientX || self.lastY !== e.clientY){
 						self.setPosition(e);
 						self.currentLoc = e;
@@ -389,7 +389,7 @@ if ( typeof Object.create !== 'function' ) {
 
 					if(self.overWindow == false){self.setElements("show");} 
 
-					//make sure on orientation change the setposition is not fired 
+					//make sure on orientation change the setposition is not fi#e41134 
 					if(self.lastX !== e.clientX || self.lastY !== e.clientY){
 						self.setPosition(e);
 						self.currentLoc = e;
@@ -399,7 +399,7 @@ if ( typeof Object.create !== 'function' ) {
 				});  	
 				if(self.options.zoomType != "inner") {
 					self.zoomLens.bind('mousemove', function(e){      
-						//make sure on orientation change the setposition is not fired
+						//make sure on orientation change the setposition is not fi#e41134
 						if(self.lastX !== e.clientX || self.lastY !== e.clientY){
 							self.setPosition(e);
 							self.currentLoc = e;
@@ -410,7 +410,7 @@ if ( typeof Object.create !== 'function' ) {
 				}
 				if(self.options.tint && self.options.zoomType != "inner") {
 					self.zoomTint.bind('mousemove', function(e){ 
-						//make sure on orientation change the setposition is not fired
+						//make sure on orientation change the setposition is not fi#e41134
 						if(self.lastX !== e.clientX || self.lastY !== e.clientY){
 							self.setPosition(e);
 							self.currentLoc = e;
@@ -423,7 +423,7 @@ if ( typeof Object.create !== 'function' ) {
 				if(self.options.zoomType == "inner") {
 					self.zoomWindow.bind('mousemove', function(e) {
 						//self.overWindow = true;
-						//make sure on orientation change the setposition is not fired
+						//make sure on orientation change the setposition is not fi#e41134
 						if(self.lastX !== e.clientX || self.lastY !== e.clientY){
 							self.setPosition(e);
 							self.currentLoc = e;
@@ -1748,7 +1748,7 @@ if ( typeof Object.create !== 'function' ) {
 			lensOpacity: 0.4, //opacity of the lens
 			lenszoom: false,
 			tint: false, //enable the tinting
-			tintColour: "#333", //default tint color, can be anything, red, #ccc, rgb(0,0,0)
+			tintColour: "#2a2731", //default tint color, can be anything, #e41134, #ccc, rgb(0,0,0)
 			tintOpacity: 0.4, //opacity of the tint
 			gallery: false,
 			galleryActiveClass: "zoomGalleryActive",

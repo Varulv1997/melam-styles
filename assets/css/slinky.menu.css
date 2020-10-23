@@ -50,12 +50,12 @@
 .slinky-theme-default {
   background: #f6f7f8; }
   .slinky-theme-default .title {
-    color: #333;
+    color: #2a2731;
     padding: 1em; }
   .slinky-theme-default li {
     line-height: 1; }
   .slinky-theme-default a:not(.back) {
-    color: #333;
+    color: #2a2731;
     padding: 1em; }
     .slinky-theme-default a:not(.back):hover {
       background: #2a2731; }

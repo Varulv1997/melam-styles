@@ -12696,7 +12696,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   position: absolute;
   top: 50%;
   transform: translatey(-50%);
-  background: rgba(236, 54, 66, 0.6);
+  background: #e41134;
   width: 30px;
   height: 30px;
   line-height: 30px;
@@ -13239,26 +13239,26 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 /*blog details css end*/
 /*  24. modal css here */
-.modal-dialog.modal-dialog-centered {
+.modal-dialog.modal-dialog-cente#e41134 {
   min-width: 1100px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-  .modal-dialog.modal-dialog-centered {
+  .modal-dialog.modal-dialog-cente#e41134 {
     min-width: 1000px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .modal-dialog.modal-dialog-centered {
+  .modal-dialog.modal-dialog-cente#e41134 {
     min-width: 950px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .modal-dialog.modal-dialog-centered {
+  .modal-dialog.modal-dialog-cente#e41134 {
     min-width: 730px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .modal-dialog.modal-dialog-centered {
+  .modal-dialog.modal-dialog-cente#e41134 {
     min-width: 90%;
   }
 }
@@ -13492,7 +13492,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   position: absolute;
   background: #f2f2f2;
   border-radius: 3px;
-  color: #333;
+  color: #2a2731;
   height: 32px;
   top: 50%;
   transform: translatey(-50%);
@@ -13641,7 +13641,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 #boxes #frm_subscribe #notification {
-  color: #f00;
+  color: #e41134;
 }
 
 #boxes #frm_subscribe #notification .success {
